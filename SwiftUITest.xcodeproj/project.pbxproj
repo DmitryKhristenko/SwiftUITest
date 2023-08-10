@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B527D3752A850A52002A9689 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527D3742A850A51002A9689 /* CircleImage.swift */; };
+		B527D3772A850BF8002A9689 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527D3762A850BF8002A9689 /* MapView.swift */; };
+		B527D3792A852174002A9689 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B527D3782A852174002A9689 /* landmarkData.json */; };
+		B527D37B2A8521AA002A9689 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527D37A2A8521AA002A9689 /* Landmark.swift */; };
+		B527D37D2A85240B002A9689 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B527D37C2A85240B002A9689 /* Swift.gitignore */; };
 		B5ABA70F2A5049BF0005E6FF /* SwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABA70E2A5049BF0005E6FF /* SwiftUITestApp.swift */; };
 		B5ABA7112A5049BF0005E6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABA7102A5049BF0005E6FF /* ContentView.swift */; };
 		B5ABA7132A5049C50005E6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ABA7122A5049C50005E6FF /* Assets.xcassets */; };
@@ -14,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B527D3742A850A51002A9689 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B527D3762A850BF8002A9689 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B527D3782A852174002A9689 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B527D37A2A8521AA002A9689 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B527D37C2A85240B002A9689 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
+		B56BA7D62A769A5900D3A6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B5ABA70B2A5049BF0005E6FF /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ABA70E2A5049BF0005E6FF /* SwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestApp.swift; sourceTree = "<group>"; };
 		B5ABA7102A5049BF0005E6FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +46,7 @@
 		B5ABA7022A5049BE0005E6FF = {
 			isa = PBXGroup;
 			children = (
+				B527D37C2A85240B002A9689 /* Swift.gitignore */,
 				B5ABA70D2A5049BF0005E6FF /* SwiftUITest */,
 				B5ABA70C2A5049BF0005E6FF /* Products */,
 			);
@@ -51,8 +63,12 @@
 		B5ABA70D2A5049BF0005E6FF /* SwiftUITest */ = {
 			isa = PBXGroup;
 			children = (
+				B56BA7D62A769A5900D3A6EA /* Info.plist */,
 				B5ABA70E2A5049BF0005E6FF /* SwiftUITestApp.swift */,
 				B5ABA7102A5049BF0005E6FF /* ContentView.swift */,
+				B527D37A2A8521AA002A9689 /* Landmark.swift */,
+				B527D3742A850A51002A9689 /* CircleImage.swift */,
+				B527D3762A850BF8002A9689 /* MapView.swift */,
 				B5ABA7122A5049C50005E6FF /* Assets.xcassets */,
 				B5ABA7142A5049C60005E6FF /* Preview Content */,
 			);
@@ -63,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B5ABA7152A5049C60005E6FF /* Preview Assets.xcassets */,
+				B527D3782A852174002A9689 /* landmarkData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,6 +144,8 @@
 			files = (
 				B5ABA7162A5049C60005E6FF /* Preview Assets.xcassets in Resources */,
 				B5ABA7132A5049C50005E6FF /* Assets.xcassets in Resources */,
+				B527D37D2A85240B002A9689 /* Swift.gitignore in Resources */,
+				B527D3792A852174002A9689 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5ABA7112A5049BF0005E6FF /* ContentView.swift in Sources */,
+				B527D3772A850BF8002A9689 /* MapView.swift in Sources */,
 				B5ABA70F2A5049BF0005E6FF /* SwiftUITestApp.swift in Sources */,
+				B527D3752A850A52002A9689 /* CircleImage.swift in Sources */,
+				B527D37B2A8521AA002A9689 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +292,7 @@
 				DEVELOPMENT_TEAM = 5X6RZ5N5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SwiftUITest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +321,7 @@
 				DEVELOPMENT_TEAM = 5X6RZ5N5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SwiftUITest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
