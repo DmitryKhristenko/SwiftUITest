@@ -28,6 +28,10 @@
 		B5ABA7112A5049BF0005E6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABA7102A5049BF0005E6FF /* ContentView.swift */; };
 		B5ABA7132A5049C50005E6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ABA7122A5049C50005E6FF /* Assets.xcassets */; };
 		B5ABA7162A5049C60005E6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ABA7152A5049C60005E6FF /* Preview Assets.xcassets */; };
+		B5D6D7E82A8A8ED10094EBD2 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6D7E72A8A8ED10094EBD2 /* HikeView.swift */; };
+		B5D6D7EA2A8A8EDF0094EBD2 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6D7E92A8A8EDF0094EBD2 /* HikeGraph.swift */; };
+		B5D6D7EC2A8A8EE10094EBD2 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6D7EB2A8A8EE10094EBD2 /* HikeDetail.swift */; };
+		B5D6D7EE2A8A8EE30094EBD2 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6D7ED2A8A8EE30094EBD2 /* GraphCapsule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		B5ABA7102A5049BF0005E6FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5ABA7122A5049C50005E6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5ABA7152A5049C60005E6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D6D7E72A8A8ED10094EBD2 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		B5D6D7E92A8A8EDF0094EBD2 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		B5D6D7EB2A8A8EE10094EBD2 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		B5D6D7ED2A8A8EE30094EBD2 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B5ABA7102A5049BF0005E6FF /* ContentView.swift */,
+				B5D6D7EF2A8A8F450094EBD2 /* Hikes */,
 				B527D38C2A89228F002A9689 /* Landmarks */,
 				B527D3972A8A78EA002A9689 /* Badges */,
 				B527D38B2A89228D002A9689 /* Helpers */,
@@ -168,6 +177,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B5D6D7EF2A8A8F450094EBD2 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				B5D6D7ED2A8A8EE30094EBD2 /* GraphCapsule.swift */,
+				B5D6D7E72A8A8ED10094EBD2 /* HikeView.swift */,
+				B5D6D7EB2A8A8EE10094EBD2 /* HikeDetail.swift */,
+				B5D6D7E92A8A8EDF0094EBD2 /* HikeGraph.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,11 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D6D7EE2A8A8EE30094EBD2 /* GraphCapsule.swift in Sources */,
 				B5ABA7112A5049BF0005E6FF /* ContentView.swift in Sources */,
+				B5D6D7EA2A8A8EDF0094EBD2 /* HikeGraph.swift in Sources */,
 				B527D3962A8A77B2002A9689 /* Badge.swift in Sources */,
 				B527D3772A850BF8002A9689 /* MapView.swift in Sources */,
 				B5ABA70F2A5049BF0005E6FF /* SwiftUITestApp.swift in Sources */,
 				B527D38A2A891EA8002A9689 /* FavouriteButton.swift in Sources */,
+				B5D6D7E82A8A8ED10094EBD2 /* HikeView.swift in Sources */,
+				B5D6D7EC2A8A8EE10094EBD2 /* HikeDetail.swift in Sources */,
 				B527D38E2A892C82002A9689 /* HexagonParameters.swift in Sources */,
 				B527D39B2A8A89E0002A9689 /* Hike.swift in Sources */,
 				B527D3942A8A7726002A9689 /* RotatedBadgeSymbol.swift in Sources */,
