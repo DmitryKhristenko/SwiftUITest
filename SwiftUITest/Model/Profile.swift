@@ -14,7 +14,7 @@ struct Profile {
     var goalDate = Date()
 
 
-    static let `default` = Profile(username: "g_kumar")
+    static let `default` = Profile(username: "bergamot")
 
 
     enum Season: String, CaseIterable, Identifiable {
